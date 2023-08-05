@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 convolve.py",
+      "input": "0.50\r\n9,20,10,25,14,22,10,18\r\n4,4,4,4,4,4,4\r\n",
+      "output": "mean1A = 16.0\r\nmean2A = 3.5\r\nmean1A + mean2A = 19.5\r\nThe probability that two events will take less than t' < t:\r\nPrA(t'< 20.0 s) = 0.50",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 50
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 convolve.py",
+      "input": "0.80\r\n10, 12, 14, 1, 14, 2, 5\r\n6, 6, 5, 5, 4, 3\r\n",
+      "output": "mean1A = 8.29\r\nmean2A = 4.14\r\nmean1A + mean2A = 12.43\r\nThe probability that two events will take less than t' < t:\r\nPrA(t'< 15.0 s) = 0.80",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 50
+    }
+  ]
+}
